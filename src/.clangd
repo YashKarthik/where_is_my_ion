@@ -1,6 +1,22 @@
 CompileFlags:
-  Add: [
-    -std=c++17,
-    $(pkg-config --cflags --libs protobuf)
-]
+  Add: 
+    - "-std=c++17"
+    - "-I/usr/local/include"
+    - "-I/usr/include"
+    - "-I${workspaceFolder}/src"
+    - "-I${workspaceFolder}/build/src"  # For generated protobuf files
+    - "`pkg-config --cflags protobuf`"
+    - "`pkg-config --cflags libcurl`"
 
+Diagnostics:
+  UnusedIncludes: Strict
+  ClangTidy:
+    Add: 
+      - modernize*
+      - performance*
+    Remove:
+      - modernize-use-trailing-return-type
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
