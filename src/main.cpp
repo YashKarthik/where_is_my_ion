@@ -13,6 +13,29 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* use
   return size * nmemb;
 }
 
+void check_train_status(const transit_realtime::VehiclePosition& vehicle) {
+  if (!vehicle.has_current_status()) {
+    std::cerr << "Vehicle does not have current status or stop ID" << '\n';
+    return;
+  }
+
+  auto status = vehicle.current_status();
+
+  switch (status) {
+    case transit_realtime::VehiclePosition_VehicleStopStatus::VehiclePosition_VehicleStopStatus_INCOMING_AT:
+      std::cout << "APPROACHING \n";
+      break;
+
+    case transit_realtime::VehiclePosition_VehicleStopStatus::VehiclePosition_VehicleStopStatus_STOPPED_AT:
+      std::cout << "STOPPED " << '\n';
+      break;
+
+    case transit_realtime::VehiclePosition_VehicleStopStatus::VehiclePosition_VehicleStopStatus_IN_TRANSIT_TO:
+      std::cout << "IN TRANSIT" << '\n';
+      break;
+  }
+}
+
 int main() {
   CURL* curl = curl_easy_init();
   std::string buffer;
@@ -43,13 +66,15 @@ int main() {
             const auto& vehicle = entity.vehicle();
 
             if (vehicle.has_position()) {
-
+              vehicle.trip().direction_id() == 0 ? std::cout << "To Conestoga Stn." : std::cout << "To Fairway Stn.";
+              std::cout << std::endl;
               std::cout << "ION Train ID: " << entity.id() << std::endl;
               std::cout << "Trip ID:" << vehicle.trip().trip_id() << std::endl;
 
               std::cout << "Position: " << vehicle.position().latitude() 
                 << ", " << vehicle.position().longitude() << std::endl;
 
+              check_train_status(vehicle);
 
               if (vehicle.has_current_stop_sequence()) {
                 std::cout << "Current Stop Sequence: " 
@@ -58,7 +83,7 @@ int main() {
 
               StopInfo* stop = GTFSLoader::get_stop_info(lookup_table, vehicle.trip().trip_id(), vehicle.current_stop_sequence());
               if (stop) {
-                std::cout << "Found stop: " << stop->stop_name << std::endl;
+                std::cout << "Stop name: " << stop->stop_name << std::endl;
               } else {
                 std::cout << "Stop not found" << std::endl;
               }
