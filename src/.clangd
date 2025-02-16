@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [
+    -std=c++17,
+    $(pkg-config --cflags --libs protobuf)
+]
+
