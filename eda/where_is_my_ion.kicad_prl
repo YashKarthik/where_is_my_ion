@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -8,7 +8,7 @@
       "+3V3",
       "GND"
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -21,7 +21,7 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": true,
+      "graphics": false,
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
@@ -105,7 +105,7 @@
       103,
       103,
       103,
-      103
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

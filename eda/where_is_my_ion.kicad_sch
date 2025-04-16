@@ -27214,7 +27214,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_INTER_WHITE"
+		(property "Value" "LED_STN_BLUE"
 			(at 554.736 356.108 0)
 			(effects
 				(font
@@ -29739,7 +29739,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_INTER_WHITE"
+		(property "Value" "LED_STN_BLUE"
 			(at 547.116 315.468 0)
 			(effects
 				(font
