@@ -6907,6 +6907,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 292.1) (xy 355.6 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fd25e2-64f2-48b1-9870-209dd3e84414")
+	)
+	(wire
+		(pts
 			(xy 544.83 57.15) (xy 544.83 60.96)
 		)
 		(stroke
@@ -7617,6 +7627,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 295.91) (xy 355.6 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d9e24a-cc33-477e-b8c2-d2b0c0df511f")
+	)
+	(wire
+		(pts
 			(xy 565.15 187.96) (xy 572.77 187.96)
 		)
 		(stroke
@@ -8094,6 +8114,16 @@
 			(type default)
 		)
 		(uuid "6b85f75a-30ae-492e-b631-0509f220bba4")
+	)
+	(wire
+		(pts
+			(xy 349.25 280.67) (xy 355.6 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c54f91b-0b09-4a65-8a51-f1bf382417dd")
 	)
 	(wire
 		(pts
@@ -8867,6 +8897,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 288.29) (xy 355.6 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6a5125-164c-4895-8075-be1cccf86758")
+	)
+	(wire
+		(pts
 			(xy 443.23 205.74) (xy 466.09 205.74)
 		)
 		(stroke
@@ -9354,6 +9394,16 @@
 			(type default)
 		)
 		(uuid "a1685a13-346c-49c7-9ed9-568047ab21c3")
+	)
+	(wire
+		(pts
+			(xy 349.25 284.48) (xy 355.6 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ba5042-46eb-4509-8679-00df96fced1d")
 	)
 	(wire
 		(pts
@@ -11565,6 +11615,16 @@
 		)
 		(uuid "05d04447-ea23-432e-be02-fe72845d038d")
 	)
+	(label "IO1_SW"
+		(at 353.06 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "068cbfcc-a623-4b87-bfa8-de453b4f1a04")
+	)
 	(label "STN_GRH"
 		(at 334.01 143.51 90)
 		(effects
@@ -11875,6 +11935,16 @@
 		)
 		(uuid "23b99c6b-14ff-4987-a66a-8bec24f2ef8e")
 	)
+	(label "U0TXD"
+		(at 353.06 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25935012-d656-48df-9d2a-0c1b30d3869c")
+	)
 	(label "GND"
 		(at 314.96 280.67 0)
 		(effects
@@ -11994,6 +12064,16 @@
 			(justify left bottom)
 		)
 		(uuid "309fc415-2de6-40aa-80e4-8e63377bbb36")
+	)
+	(label "IO0_SW"
+		(at 353.06 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3131f5fd-3ab6-44a0-b440-1bf973d71c2c")
 	)
 	(label "INTER_block_fairway_2"
 		(at 520.7 45.72 90)
@@ -12124,6 +12204,16 @@
 			(justify right bottom)
 		)
 		(uuid "414fd691-26d4-4ec1-a1ad-666b88c5c766")
+	)
+	(label "IO9"
+		(at 353.06 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41f645ec-5d8a-4fa6-8df7-9a0d3533cfa5")
 	)
 	(label "IO18"
 		(at 201.93 288.29 0)
@@ -12624,6 +12714,16 @@
 			(justify left bottom)
 		)
 		(uuid "8996421d-b7ec-4682-9558-58ac5f877b3c")
+	)
+	(label "U0RXD"
+		(at 353.06 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e3958cc-b0bc-4c89-9255-cfb5a1a302f7")
 	)
 	(label "STN_REV_ALLEN"
 		(at 520.7 214.63 90)
@@ -15201,6 +15301,70 @@
 			(project "where_is_my_ion"
 				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 288.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "182781b0-0b9f-48ca-ae26-6f39c433cd30")
+		(property "Reference" "TP8"
+			(at 342.138 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 349.25 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ceed855-5f79-419f-bdaf-4e78c3868713")
+		)
+		(instances
+			(project "where_is_my_ion"
+				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -19805,6 +19969,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 295.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62f2e87e-dd51-41f1-865f-43153c894280")
+		(property "Reference" "TP10"
+			(at 342.138 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 349.25 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6273b2c9-7ab0-4d74-a61c-988c7473ee15")
+		)
+		(instances
+			(project "where_is_my_ion"
+				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 134.62 392.43 180)
 		(unit 1)
@@ -20595,6 +20823,70 @@
 			(project ""
 				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 280.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67da92ca-100e-4615-a3e1-409bea3fce12")
+		(property "Reference" "TP6"
+			(at 342.138 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 349.25 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e6993f-aef9-41de-aea8-3a9c4a562d6a")
+		)
+		(instances
+			(project "where_is_my_ion"
+				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -25030,6 +25322,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 292.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a91c4d-a9b5-4d1f-b4f8-9d2149390452")
+		(property "Reference" "TP9"
+			(at 342.138 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 349.25 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e59304c6-03c7-4d80-97e6-19111c5841f4")
+		)
+		(instances
+			(project "where_is_my_ion"
+				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 300.99 151.13 270)
 		(unit 1)
@@ -28614,6 +28970,70 @@
 			(project ""
 				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 284.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e370898e-be4a-48e0-bfbe-845025a78fa6")
+		(property "Reference" "TP7"
+			(at 342.138 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 334.518 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 349.25 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cd43a1a-0612-494a-9512-2032212e297d")
+		)
+		(instances
+			(project "where_is_my_ion"
+				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
