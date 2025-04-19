@@ -4854,7 +4854,7 @@
 		(uuid "249d84a0-344d-48f0-a4ac-49b8e86dd9e9")
 	)
 	(junction
-		(at 332.74 204.47)
+		(at 322.58 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24ca63bf-c62f-4de8-96f9-201cbd929592")
@@ -5304,12 +5304,6 @@
 		(uuid "c459bdb9-cca2-4412-b373-437ccf420270")
 	)
 	(junction
-		(at 323.85 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5521883-f5aa-4fa7-aac7-d9afed63ab64")
-	)
-	(junction
 		(at 300.99 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5635,6 +5629,10 @@
 		(at 83.82 44.45)
 		(uuid "f57b7f29-6fd5-40bd-904c-bd7157fd9860")
 	)
+	(no_connect
+		(at 227.33 181.61)
+		(uuid "f985d4af-2698-46da-abc6-2454d8b9dc46")
+	)
 	(wire
 		(pts
 			(xy 281.94 204.47) (xy 290.83 204.47)
@@ -5657,7 +5655,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 204.47) (xy 323.85 204.47)
+			(xy 314.96 204.47) (xy 322.58 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6927,16 +6925,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 204.47) (xy 332.74 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359908a2-4e6f-466d-bcfa-c026f0565595")
-	)
-	(wire
-		(pts
 			(xy 443.23 66.04) (xy 466.09 66.04)
 		)
 		(stroke
@@ -7184,26 +7172,6 @@
 			(type default)
 		)
 		(uuid "3defeb6f-f7d7-4879-b974-eeff7fddee57")
-	)
-	(wire
-		(pts
-			(xy 323.85 200.66) (xy 323.85 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e67e7d3-e9b5-4232-925c-a07d6a175982")
-	)
-	(wire
-		(pts
-			(xy 323.85 185.42) (xy 323.85 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7df7cf-cdb6-4d10-8768-b7397d39764f")
 	)
 	(wire
 		(pts
@@ -9197,26 +9165,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 181.61) (xy 250.19 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b98d725-1a97-4d08-b897-a47a738bc0d6")
-	)
-	(wire
-		(pts
-			(xy 332.74 204.47) (xy 346.71 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b9be3aa-0f0e-4d71-a047-f5e2a907cdb7")
-	)
-	(wire
-		(pts
 			(xy 83.82 59.69) (xy 91.44 59.69)
 		)
 		(stroke
@@ -9247,7 +9195,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 200.66) (xy 332.74 204.47)
+			(xy 322.58 200.66) (xy 322.58 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10327,6 +10275,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 204.47) (xy 346.71 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdff0b27-afde-42c1-bb7e-209c60048626")
+	)
+	(wire
+		(pts
 			(xy 562.61 320.04) (xy 576.58 320.04)
 		)
 		(stroke
@@ -11247,7 +11205,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 185.42) (xy 332.74 193.04)
+			(xy 322.58 185.42) (xy 322.58 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12156,7 +12114,7 @@
 		(uuid "3ad9912d-3f64-4bcf-9668-d90d3a574a3e")
 	)
 	(label "INTER_kmrkt_borden_1"
-		(at 332.74 189.23 90)
+		(at 322.58 189.23 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12306,7 +12264,7 @@
 		(uuid "4a137389-942b-458b-96be-47d03336fb51")
 	)
 	(label "LED_IS_FETCHING"
-		(at 250.19 181.61 180)
+		(at 250.19 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13155,16 +13113,6 @@
 		)
 		(uuid "b9bd71a1-86c5-4db7-8feb-e7ef63375507")
 	)
-	(label "INTER_kmrkt_borden_2"
-		(at 323.85 189.23 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbd8aa06-206b-48de-a341-f9c65e3ed462")
-	)
 	(label "INTER_lwp_willis"
 		(at 300.99 87.63 90)
 		(effects
@@ -13396,7 +13344,7 @@
 		(uuid "d5674263-c8db-4efa-80c6-082f9cb0e3b3")
 	)
 	(label "STN_MILL"
-		(at 250.19 179.07 180)
+		(at 250.19 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13704,16 +13652,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8f786d8-72f1-4e5d-8e1d-a56bf749ad55")
-	)
-	(label "INTER_borden_mill_2"
-		(at 250.19 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f92c604f-3a7e-4ac0-8ee5-afa3b36fd0b9")
 	)
 	(label "IO5_SDA"
 		(at 400.05 91.44 0)
@@ -17518,82 +17456,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 323.85 196.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39995529-9761-4421-9201-30a77e323919")
-		(property "Reference" "D54"
-			(at 322.834 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_INTER_WHITE"
-			(at 326.136 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 323.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 323.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 323.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a76d6971-c9e4-4740-8f9d-eb6075919bcb")
-		)
-		(pin "2"
-			(uuid "f535c8f2-6a59-4451-9fc3-438a5670edf9")
-		)
-		(instances
-			(project "where_is_my_ion"
-				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
-					(reference "D54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 553.72 222.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18995,7 +18857,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 332.74 196.85 270)
+		(at 322.58 196.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19003,7 +18865,7 @@
 		(dnp no)
 		(uuid "524f5ab1-b2cd-4812-9460-77a854e697d2")
 		(property "Reference" "D55"
-			(at 331.724 200.406 0)
+			(at 321.564 200.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19011,7 +18873,7 @@
 			)
 		)
 		(property "Value" "LED_INTER_WHITE"
-			(at 335.026 199.898 0)
+			(at 324.866 199.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,7 +18881,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 332.74 196.85 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19028,7 +18890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 196.85 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19037,7 +18899,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 332.74 196.85 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19046,7 +18908,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 332.74 196.85 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
