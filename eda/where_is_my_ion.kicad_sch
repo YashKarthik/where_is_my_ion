@@ -9795,16 +9795,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 179.07) (xy 250.19 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cfe9af-3e99-4179-a92a-cc7c43e8ca25")
-	)
-	(wire
-		(pts
 			(xy 443.23 63.5) (xy 466.09 63.5)
 		)
 		(stroke
@@ -11385,6 +11375,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 179.07) (xy 250.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc02efe-9f2c-48d9-9134-09cf338a9a1f")
+	)
+	(wire
+		(pts
 			(xy 529.59 229.87) (xy 537.21 229.87)
 		)
 		(stroke
@@ -11694,7 +11694,7 @@
 		(uuid "0e7e0a68-b711-479f-8474-1d3b0e40afe0")
 	)
 	(label "STN_BORDEN"
-		(at 250.19 171.45 180)
+		(at 250.19 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11772,6 +11772,16 @@
 			(justify left bottom)
 		)
 		(uuid "16a002f7-2e3c-4ba1-852d-8441edca476e")
+	)
+	(label "INTER_borden_mill_2"
+		(at 250.19 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17d3e6d1-d1ee-417b-b843-64d15152abaf")
 	)
 	(label "IO8"
 		(at 276.86 256.54 0)
@@ -11964,7 +11974,7 @@
 		(uuid "2b500d4a-aa3d-4b5e-8c5c-251a16def08e")
 	)
 	(label "INTER_borden_mill_1"
-		(at 250.19 173.99 180)
+		(at 250.19 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13212,16 +13222,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6cf8a6a-d7b5-4cea-88c3-1305b15d6575")
-	)
-	(label "INTER_kmrkt_borden_2"
-		(at 250.19 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c849819b-6d81-4002-8ef7-58edfbe0b0b2")
 	)
 	(label "INTER_central_grh_2"
 		(at 544.83 214.63 90)
