@@ -8085,16 +8085,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 280.67) (xy 355.6 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c54f91b-0b09-4a65-8a51-f1bf382417dd")
-	)
-	(wire
-		(pts
 			(xy 115.57 261.62) (xy 120.65 261.62)
 		)
 		(stroke
@@ -11573,7 +11563,7 @@
 		)
 		(uuid "05d04447-ea23-432e-be02-fe72845d038d")
 	)
-	(label "IO1_SW"
+	(label "IO10"
 		(at 353.06 284.48 0)
 		(effects
 			(font
@@ -12032,16 +12022,6 @@
 			(justify left bottom)
 		)
 		(uuid "309fc415-2de6-40aa-80e4-8e63377bbb36")
-	)
-	(label "IO0_SW"
-		(at 353.06 280.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3131f5fd-3ab6-44a0-b440-1bf973d71c2c")
 	)
 	(label "INTER_block_fairway_2"
 		(at 520.7 45.72 90)
@@ -20685,70 +20665,6 @@
 			(project ""
 				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 349.25 280.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67da92ca-100e-4615-a3e1-409bea3fce12")
-		(property "Reference" "TP6"
-			(at 342.138 280.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 334.518 280.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 349.25 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 349.25 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e6993f-aef9-41de-aea8-3a9c4a562d6a")
-		)
-		(instances
-			(project "where_is_my_ion"
-				(path "/1b7d39dc-ea72-40bd-b392-fed3f2ced69f"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
